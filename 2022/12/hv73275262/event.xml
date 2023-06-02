@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/e3ce9fa0-d54f-4bb3-a1c9-2257577b543c">
+    <event publicID="quakeml:hv.anss.org/Event/HV/73275262" ns0:datasource="hv" ns0:dataid="hv73275262" ns0:eventsource="hv" ns0:eventid="73275262">
+      <preferredOriginID>quakeml:hv.anss.org/Origin/HV/76275257</preferredOriginID>
+      <preferredMagnitudeID>quakeml:hv.anss.org/Netmag/HV/95457932</preferredMagnitudeID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>HV</agencyID>
+        <creationTime>2022-12-18T17:41:32.000000Z</creationTime>
+        <version>0</version>
+      </creationInfo>
+      <origin publicID="quakeml:hv.anss.org/Origin/HV/76275257" ns0:datasource="hv" ns0:dataid="hv73275262" ns0:eventsource="hv" ns0:eventid="73275262">
+        <time>
+          <value>2022-12-18T17:38:35.540000Z</value>
+        </time>
+        <latitude>
+          <value>19.4025001525879</value>
+        </latitude>
+        <longitude>
+          <value>-155.272506713867</value>
+        </longitude>
+        <depth>
+          <value>-90.0000035762787</value>
+          <uncertainty>720.000029</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:hv.anss.org/origin/BINDER</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <creationInfo>
+          <agencyID>HV</agencyID>
+          <creationTime>2022-12-18T17:41:32.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>confidence ellipsoid</preferredDescription>
+          <horizontalUncertainty>330.0</horizontalUncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+          <confidenceEllipsoid>
+            <semiMajorAxisLength>1896.0000504</semiMajorAxisLength>
+            <semiMinorAxisLength>432.0000168</semiMinorAxisLength>
+            <semiIntermediateAxisLength>767.9999832</semiIntermediateAxisLength>
+            <majorAxisPlunge>65.0</majorAxisPlunge>
+            <majorAxisAzimuth>277.0</majorAxisAzimuth>
+            <majorAxisRotation>326.0</majorAxisRotation>
+          </confidenceEllipsoid>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:hv.anss.org/Netmag/HV/95457932">
+        <mag>
+          <value>0.460000008</value>
+          <uncertainty>0.460000008</uncertainty>
+        </mag>
+        <type>Md</type>
+        <originID>quakeml:hv.anss.org/Origin/HV/76275257</originID>
+        <methodID>smi:hv.anss.org/magnitude/hypoinverse</methodID>
+        <stationCount>4</stationCount>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <creationInfo>
+          <agencyID>HV</agencyID>
+          <creationTime>2022-12-18T17:41:32.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>

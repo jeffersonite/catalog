@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/4f6f76e2-33e5-4da5-9f96-de65603c938c">
+    <event publicID="quakeml:hv.anss.org/Event/HV/73250907" ns0:datasource="hv" ns0:dataid="hv73250907" ns0:eventsource="hv" ns0:eventid="73250907">
+      <preferredOriginID>quakeml:hv.anss.org/Origin/HV/76250902</preferredOriginID>
+      <type>earthquake</type>
+      <creationInfo>
+        <agencyID>HV</agencyID>
+        <creationTime>2022-12-02T02:01:18.000000Z</creationTime>
+        <version>0</version>
+      </creationInfo>
+      <origin publicID="quakeml:hv.anss.org/Origin/HV/76250902" ns0:datasource="hv" ns0:dataid="hv73250907" ns0:eventsource="hv" ns0:eventid="73250907">
+        <time>
+          <value>2022-12-02T01:58:19.640000Z</value>
+        </time>
+        <latitude>
+          <value>19.2368335723877</value>
+        </latitude>
+        <longitude>
+          <value>-155.392333984375</value>
+        </longitude>
+        <depth>
+          <value>31799.9992370605</value>
+          <uncertainty>1110.00001</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <methodID>smi:hv.anss.org/origin/BINDER</methodID>
+        <type>hypocenter</type>
+        <evaluationMode>automatic</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <creationInfo>
+          <agencyID>HV</agencyID>
+          <creationTime>2022-12-02T02:01:18.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>confidence ellipsoid</preferredDescription>
+          <horizontalUncertainty>1500.0</horizontalUncertainty>
+          <confidenceLevel>95.0</confidenceLevel>
+          <confidenceEllipsoid>
+            <semiMajorAxisLength>4416.000072</semiMajorAxisLength>
+            <semiMinorAxisLength>1464.0000336</semiMinorAxisLength>
+            <semiIntermediateAxisLength>3312.0</semiIntermediateAxisLength>
+            <majorAxisPlunge>35.0</majorAxisPlunge>
+            <majorAxisAzimuth>170.0</majorAxisAzimuth>
+            <majorAxisRotation>5.0</majorAxisRotation>
+          </confidenceEllipsoid>
+        </originUncertainty>
+      </origin>
+    </event>
+  </eventParameters>
+</q:quakeml>
